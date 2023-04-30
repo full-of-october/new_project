@@ -1,0 +1,35 @@
+{
+  "name": "amazon_water",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-twig": "^1.2.0",
+    "simple-parallax-js": "^5.6.2",
+    "swiper": "^7.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-js-import": "^1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Salko",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "description": ""
+}
