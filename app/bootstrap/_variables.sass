@@ -1,0 +1,19 @@
+$grid-breakpoints: (xs: 0, sm: 575px, md: 768px, lg: 1024px, xl: 1440px)
+$container-max-widths: (sm: 100%, md: 740px, lg: 980px, xl: 1330px)
+
++_assert-ascending($grid-breakpoints, "$grid-breakpoints")
++_assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints")
++_assert-ascending($container-max-widths, "$container-max-widths")
+
+$spacer: 4px
+$spacers: ( 0: 0, 1: $spacer, 2: $spacer * 2, 3: $spacer * 3, 4: $spacer * 4, 5: $spacer * 5, 6: $spacer * 6, 7: $spacer * 7, 8: $spacer * 8, 9: $spacer * 9, 10: $spacer * 10, 11: $spacer * 11, 12: $spacer * 12, 14: $spacer * 14, 16: $spacer * 16, 20: $spacer * 20)
+
+$grid-columns: 12
+$grid-gutter-width: 30px
+
+$gutters: $spacers
+
+// Container padding
+$container-padding-x: $grid-gutter-width
+
+$enable-important-utilities: true

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include "../layout/head.twig" %}
+
+<body>
+  <div class="wrapper">
+    {% include "../layout/header.twig" %}
+
+    <main class="content">
+      {% block page %}{% endblock %}
+    </main>
+
+    {% include "../layout/footer.twig" %}
+  </div>
+
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
